@@ -1,0 +1,116 @@
+#header-father{
+    height: 96px;
+}
+
+.header-father-cont{
+    height: 96px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0 3px 25px rgb(0 0 0 / 5%);
+}
+
+#header-top{
+    position: relative;
+    height: 54px;
+}
+
+.header-top-box{
+    height: 100%;
+    padding: 0 3.73vw 0 4.27vw;
+    display: -webkit-box;
+    -webkit-box-pack: justify;
+    -webkit-box-align: center;
+}
+
+.header-top-box-left{
+    margin-right: 1.6vw;
+    width: 27px;
+    height: 27px;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+}
+
+.header-top-box-left>img{
+    width: 27px;
+    height: 27px;
+}
+
+.header-top-box-center{
+    -webkit-box-flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: justify;
+}
+
+.header-top-box-center-top{
+    font-size: 16px;
+    color: #000;
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.header-top-box-center-bottom{
+    font-size: 12px;
+    color: grey;
+}
+
+
+.header-top-box-right{
+    display: block;
+    height: 23px;
+    line-height: 23px;
+    padding: 0 17px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(154, 153, 153);
+    border: solid 1px #d8d8d8;
+    border-radius: 999px;
+    box-sizing: border-box;
+}
+
+#header-nav{
+    height: 42.041px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+    display: -webkit-box;
+}
+
+
+#header-nav>.header-nav-select{
+    color: rgba(34,213,156,1);
+}
+
+#header-nav>.header-nav-select::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20.01px;
+    height: 3px;
+    border-radius: 0.03rem;
+    background: rgba(34,213,156,1);
+    transform: translate3d(-50%,0,0);
+}
+
+#header-nav>a{
+    -webkit-box-flex: 1;
+    width: 0;
+    height: 100%;
+    text-align: center;
+    color: rgba(26,26,26,.5);
+    position: relative;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: 300;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ音乐移动端</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/article.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/ranking.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./dist/dragula.min.css">
+</head>
+
+<body class="bg1">
+    <header id="header-father">
+        <div class="bg1 header-father-cont">
+            <div id="header-top">
+                <div class="header-top-box">
+
+                    <span class="header-top-box-left">
+                        <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo.svg" alt="">
+                    </span>
+
+                    <span class="header-top-box-center">
+                        <p class="header-top-box-center-top">QQ音乐</p>
+                        <p class="header-top-box-center-bottom">打开APP收藏下载</p>
+                    </span>
+
+                    <a href="#download" class="header-top-box-right">下载APP</a>
+
+                </div>
+            </div>
+
+            <div id="header-nav">
+                <a href="" class="header-nav-select">推荐</a>
+                <a href="">排行</a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <article id="article-recommend">
+        <div class="article-recommend-search">
+            <div class="article-recommend-search-bar">
+                <div class="article-recommend-search-bar-body bg2">
+                    <span class="iconfont search-icon">&#xe679;</span>
+                    <form action="">
+                        <input type="text" class="search-inner" placeholder="搜索">
+                    </form>
+                    <span class="cancer">×</span>
+                </div>
+                <span class="article-recommend-search-cancer">取消</span>
+            </div>
+            <div class="article-recommend-search-cont">
+                <div class="search-history">
+                    <h5>搜索历史</h5>
+                    <div class="search-history-cont"></div>
+                </div>
+                <div class="search-history">
+                    <h5>热门搜索</h5>
+                    <div class="search-history-cont2"></div>
+                </div>
+            </div>
+            <div class="search-result" style="display: none;">
+                <ul></ul>
+          </div>
+        </div>
+
+        <div class="main-cont">
+            <section class="mod">
+                <div class="mod-header">
+                    <span>
+                        <h3>官方歌单</h3>
+                    </span>
+                    <span class="more">
+                        更多>
+                    </span>
+                </div>
+                <div class="mod-cont">
+                    <ul class="mod-cont-list"></ul>
+                </div>
+            </section>
+
+            <section class="mod">
+                <div class="mod-header">
+                    <span>
+                        <h3>达人歌单</h3>
+                    </span>
+                    <span class="more">
+                        更多>
+                    </span>
+                </div>
+                <div class="mod-cont">
+                    <ul class="mod-cont-list"></ul>
+                </div>
+            </section>
+
+            <section class="mod">
+                <div class="mod-header">
+                    <span>
+                        <h3>专区</h3>
+                    </span>
+                    <span class="more">
+                        更多>
+                    </span>
+                </div>
+                <div>
+                    <div class="mod-cont">
+                        <ul class="mod-cont-list"></ul>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </article>
+
+    <article id="article-rank" style="display:none;">
+        <ul class="grid"></ul>
+    </article>
+
+    <footer id="footer-father">
+        <div class="footer-top">
+            <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo_ch.svg" alt="">
+        </div>
+        <p>Copyright © 1998 - 2022 Tencent. All Rights Reserved.</p>
+        <p>联系电话：0755-86013388 QQ群：55209235</p>
+    </footer>
+
+    <div id="comeload">
+        <a href="" class="comeload-a bg2" >
+            <div>
+                <img src="https://y.qq.com/mediastyle/mod/mobile/img/logo.svg" alt="QQ音乐">
+            </div>
+            <p>安装QQ音乐 发现更多精彩</p>
+        </a>
+    </div>
+
+    <script src="./dist/dragula.min.js"></script>
+    <script src="./js/listener.js"></script>
+    <script src="./js/appendlist.js"></script>
+
+</body>
+
+</html>

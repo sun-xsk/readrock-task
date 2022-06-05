@@ -1,0 +1,55 @@
+#footer-father{
+    position: relative;
+    margin-top: 30px;
+    padding: 4.2667vw 0;
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    font-weight: 300;
+}
+
+.footer-top{
+    width: 21.3333vmin;
+    height: 5.8667vmin;
+    margin:  0 auto 10px;
+}
+
+.footer-top>img{
+    height: 100%;   
+}
+
+#comeload{
+    height: 45px;
+    padding: 4.2667vmin;
+    z-index: 30;
+}
+
+.comeload-a{
+    position: fixed;
+    bottom: 4.2667vmin;
+    left: 50%;
+    z-index: 100;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    height: 12vmin;
+    padding: 0 4vmin;
+    border-radius: 12vmin;
+    box-shadow: 0 3px 25px rgb(0 0 0 / 5%);
+    transform: translate(-50%);
+}
+
+.comeload-a>div{
+    width: 5.8667vmin;
+    margin-right: 1.3333vmin;
+}
+
+.comeload-a>div>img{
+    display: block;
+    width: 100%;
+}
+
+.comeload-a>p{
+    white-space: nowrap;
+    font-size: 12px;
+    color: rgba(26,26,26,1);
+}

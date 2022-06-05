@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.bg1 {
+  background-color: #fafafa;
+}
+
+.bg2 {
+  background-color: #fff;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url("../public/iconfont.woff2?t=1654320754426") format("woff2"),
+    url("../public/iconfont.woff?t=1654320754426") format("woff"),
+    url("../public/iconfont.ttf?t=1654320754426") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
